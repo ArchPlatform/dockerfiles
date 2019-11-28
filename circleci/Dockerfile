@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.5.1-node
+FROM circleci/ruby:2.5.7-node
 USER root
 RUN apt-get update && \
   apt-get install -y \
